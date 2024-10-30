@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ProyectoCafeMovil"
         tools:targetApi="31">
         <activity
+            android:name=".parte3"
+            android:exported="false" />
+        <activity
+            android:name=".PrimeraPantalla"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
